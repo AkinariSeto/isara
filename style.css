@@ -1,0 +1,632 @@
+body {
+    margin: 0;
+}
+
+/* header */
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #fff !important;
+    position: fixed;
+    z-index: 999;
+}
+
+.header-left {
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+.header-left img {
+    width: 128px;
+    height: 46px;
+}
+
+.header-left p {
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.header-right {
+    width: 316px;
+    height: 45px;
+    color: #fff;
+    background-color: #DA6B63;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-flex;
+    float: right;
+    margin-top: 10px;
+    margin-right: 55px;
+}
+
+.header-right p {
+    margin: auto;
+}
+
+
+/* <!-- topwrapper --> */
+.top-wrapper {
+    width: auto;
+    background-image: url(img/main.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    padding-top: 100px;
+}
+
+.top-wrapper img {
+    height: 82px;
+    width: 300px;
+}
+
+
+
+/* <!-- お問い合わせ・資料請求 --> */
+.contact {
+    height: 604px;
+    width: auto;
+    padding-top: 32px;
+    background-color: #EBB94C;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.course-fee {
+    color: red;
+}
+
+.course-fee b {
+    background-color: #fff;
+}
+
+.contact-us {
+    width: 1000px;
+    height: 107px;
+    color: #fff;
+    background-color: #DA6B63;
+    border-radius: 50px;
+    text-align: center;
+    margin: 52px auto;
+}
+
+
+.contact-us p {
+    padding-top: 32px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.contact-sns {
+    display: inline-flex;
+}
+
+.contact-tw {
+    height: 20px;
+    width: 76px;
+    background-color: #1A95E0;
+    display: inline-flex;
+    margin-right: 9px;
+    border-radius: 3px;
+}
+
+.contact-fa-tw {
+    font-size: 12px;
+    margin: auto;
+}
+
+.contact-tw p {
+    font-size: 12px;
+    margin: auto;
+}
+
+
+.contact-good {
+    height: 20px;
+    width: 82px;
+    background-color: #1877F2;
+    display: inline-flex;
+    margin-right: 9px;
+    border-radius: 3px;
+}
+
+.contact-fa-good {
+    font-size: 12px;
+    margin: auto;
+}
+
+.contact-good p {
+    font-size: 12px;
+    margin: auto;
+}
+
+.contact-share {
+    height: 20px;
+    width: 52px;
+    background-color: #1877F2;
+    display: inline-flex;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.contact-share p {
+    margin: auto;
+}
+
+/* <!-- エンジニアとして本当の自由を手に入れるためには？ --> */
+.free {
+    height: 588px;
+    width: 100%;
+    background-image: url(img/introbottom.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.free-title {
+    display: inline-flex;
+}
+
+.free h2 {
+    margin: 83px auto 85px auto;
+}
+
+.kakko {
+    color: #EBB94C;
+    font-size: 100px;
+}
+
+.kakko1 {
+    padding-right: 30px;
+    padding-bottom: 60px;
+}
+
+.kakko2 {
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.free p {
+    font-size: 20px;
+}
+
+/* <!-- iSara[イサラ]とは --> */
+.about-isara {
+    width: 100%;
+    height: 648px;
+    background-color: #FEF5E0;
+    text-align: center;
+}
+
+.about-isara-head {
+    height: 80px;
+    width: 80px;
+    background-color: #EBB94C;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    bottom: 40px;
+}
+
+.about-isara h4 {
+    padding-bottom: 42px;
+}
+
+.free-title h2 {
+    margin: auto;
+}
+
+.five-skill {
+    width: 1168px;
+    height: 249px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #EBB94C;
+    border-radius: 5px;
+}
+
+.five-skill h4 {
+    padding-top: 34px;
+    padding-bottom: 25px;
+}
+
+.five-skill img {
+    font-size: medium;
+}
+
+.five-images {
+    display: inline-flex;
+}
+
+/* <!-- iSaraで「基本的なプログラミングスキル」は教えません --> */
+.not-teach {
+    width: auto;
+    height: 439px;
+    color: #fff;
+    text-align: center;
+    background-image: url(img/aboutsecondbg.jpg);
+    background-size: cover;
+}
+
+.not-teach span {
+    color: #EBB94C;
+}
+
+.step {
+    display: inline-block;
+    padding: 16px;
+}
+
+.step0 {
+    text-align: center;
+    padding: 16px;
+    background-color: #fff;
+    width: 374px;
+    height: 177px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.step h5 {
+    width: 314px;
+    height: 24px;
+    color: #fff;
+    background-color: #EBB94C;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.step p,
+h4 {
+    color: black;
+}
+
+.step p {
+    padding-top: 30px;
+}
+
+.step h4 {
+    font-size: large;
+}
+
+.eat-difficult {
+    width: auto;
+    height: 143px;
+    color: #fff;
+    text-align: center;
+    background-color: #006EA9;
+    margin: 0 auto;
+}
+
+.eat-difficult h4 {
+    color: #fff;
+    margin: 0 auto;
+}
+
+
+.not-programing {
+    color: #EBB94C;
+}
+
+/* <!-- iSara[イサラ]で学べること --> */
+.learn-isara {
+    width: 100%;
+    height: 504px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.learn-round {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* <!-- メリット --> */
+.isara-merit {
+    width: auto;
+    height: 1022px;
+    background-color: #FEF5E0;
+    text-align: center;
+}
+
+.isara-merit-title {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.isara-merit-title h4,
+h2 {
+    margin: auto;
+}
+
+.isara-merit-title span {
+    font-size: 1.5rem;
+}
+
+.merit-contents {
+    display: inline-flex;
+}
+
+.merit-contents h5 {
+    color: #EBB94C;
+}
+
+.support {
+    text-align: center;
+    padding-top: 40px;
+    background-color: #fff;
+    width: 1168px;
+    height: 263px;
+    margin: auto;
+    border: solid 2px #EBB94C;
+    border-radius: 5px;
+}
+
+.support h3 {
+    color: #EBB94C;
+}
+
+.support-p {
+    padding-top: 40px;
+}
+
+/* <!-- メンバー --> */
+.isara-member {
+    width: auto;
+    height: 1380px;
+    background-image: url(img/teacherbg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 84px;
+}
+
+.isara-member h6 {
+    padding-top: 45px;
+}
+
+.member-shokai {
+    padding-top: 212px;
+}
+
+.shokai-top {
+    display: inline-flex;
+}
+
+.shokai-under {
+    display: inline-flex;
+    padding-top: 195px;
+}
+
+.member-t {
+    width: 372px;
+    height: 390px;
+    border: solid 2px #fff;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.member-b {
+    width: 372px;
+    height: 360px;
+    border: solid 2px #fff;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.member img {
+    border-radius: 50%;
+    position: relative;
+    bottom: 150px;
+}
+
+.member p {
+    position: relative;
+    bottom: 150px;
+    padding: auto 41px 54px 41px;
+}
+
+.member-p {
+    width: 280px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+/* <!-- 「 本当に 」可能なのか？ --> */
+.really {
+    width: auto;
+    height: 270px;
+    background-color: #EBB94C;
+    text-align: center;
+}
+
+.qa {
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    color: #EBB94C;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+
+.really-title {
+    color: #fff;
+    display: inline-flex;
+}
+
+.really-kakko {
+    color: #fff;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #EBB94C;
+    margin: 0 auto;
+    bottom: 3px;
+    position: absolute;
+}
+
+/* 実現可能です */
+.possible {
+    width: auto;
+    height: 1080px;
+    background-color: #fff;
+}
+
+.possible-title {
+    text-align: center;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.message img {
+    width: 245px;
+    height: 245px;
+    border: solid 3px #EBB94C;
+}
+
+.message p {
+    width: 490px;
+    margin-left: 30px;
+}
+
+/* <!-- iSara[イサラ]で学べる内容 --> */
+.detail {
+    width: auto;
+    height: 800px;
+    background-image: url(img/classbg.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.detail table {
+    margin: 0 auto;
+    border: 1px solid;
+    border-spacing: 0;
+    border-radius: 6px;
+    display: inline;
+}
+
+.detail-title {
+    color: #fff;
+    padding-top: 65px;
+}
+
+.detail-table{
+    padding-bottom: 80px;
+}
+.detail th {
+    width: 370px;
+    border: none;
+}
+
+.detail td {
+    border-right: 2px solid #006EA9;
+    border-left: 2px solid #006EA9;
+}
+
+.detail-tail {
+    border-bottom: 2px solid #006EA9;
+}
+
+.detail-naiyou-top {
+    color: #fff;
+    background-color: #006EA9;
+    width: 370px;
+    height: 63px;
+}
+
+.detail-naiyou {
+    width: 370px;
+    height: 55px;
+    background-color: #fff;
+}
+
+
+/* リスク０ */
+.none-risk {
+    width: auto;
+    height: 145px;
+    color: #fff;
+    background-color: #006EA9;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.none-risk h3 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform: translateY(-50%,-50%);
+    margin: auto;
+    text-align: center;
+}
+
+
+/* <!-- 受講の流れ --> */
+.nagare{
+    width: auto;
+    height: 1825px;
+    background-color: #fff;
+}
+
+.nagare-detail{
+    text-align: center;
+}
+
+.nagare-parent{
+    width: 1170px;
+    height: 225px;
+    background-color: #FEF5E0;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nagare-skype-left{
+    width: 215px;
+    height: 222px;
+    display: inline-block;
+}
+.nagare-skype{
+   
+}
+
+/* <!-- なぜバンコクなのか？ --> */
+
+
+/* <!-- iSara受講生への参加特典 --> */
+
+
+/* <!-- iSaraはボランティアではありません --> */
+
+/* <!-- 創業者からのメッセージ --> */
+
+/* <!-- 資料請求フォーム --> */
+
+/* <!-- よくある質問 --> */
+
+
+/* footer */
