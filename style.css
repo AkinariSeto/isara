@@ -101,6 +101,7 @@ header {
 
 .contact-sns {
     display: inline-flex;
+    color: #fff;
 }
 
 .contact-tw {
@@ -239,7 +240,17 @@ header {
 }
 
 .five-images {
-    display: inline-flex;
+    padding-bottom: 10px;
+}
+
+.five-images-naka {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.five-images-naka p {
+    margin-top: 10px;
 }
 
 /* <!-- iSaraで「基本的なプログラミングスキル」は教えません --> */
@@ -254,6 +265,14 @@ header {
 
 .not-teach span {
     color: #EBB94C;
+}
+
+.not-teach-parent {
+    padding-top: 65px;
+}
+
+.not-teach-parent h5 {
+    padding-top: 30px;
 }
 
 .step {
@@ -296,16 +315,20 @@ h4 {
 
 .eat-difficult {
     width: auto;
-    height: 143px;
+    height: 145px;
     color: #fff;
-    text-align: center;
     background-color: #006EA9;
-    margin: 0 auto;
+    position: relative;
 }
 
 .eat-difficult h4 {
     color: #fff;
-    margin: 0 auto;
+    position: absolute;
+    transform: translateY(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
 }
 
 
@@ -322,10 +345,26 @@ h4 {
     margin: 0 auto;
 }
 
+.learn-isara-parent {
+    margin-top: 56px;
+}
+
+.learn-isara-parent p {
+    margin-top: 50px;
+}
+
 .learn-round {
     display: flex;
     text-align: center;
     margin: 0 auto;
+    justify-content: center;
+}
+
+.learn-round-img img {
+    width: 80%;
+    height: auto;
+    margin-top: 45px;
+    margin-bottom: 40px;
 }
 
 /* <!-- メリット --> */
@@ -338,12 +377,11 @@ h4 {
 
 .isara-merit-title {
     display: inline-flex;
-    margin: 0 auto;
+    text-align: center;
 }
 
-.isara-merit-title h4,
-h2 {
-    margin: auto;
+.isara-merit-title>h2 {
+    padding-top: 70px;
 }
 
 .isara-merit-title span {
@@ -351,11 +389,35 @@ h2 {
 }
 
 .merit-contents {
-    display: inline-flex;
+    width: 1143px;
+    height: 382px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .merit-contents h5 {
     color: #EBB94C;
+}
+
+.merit-contents-detail {
+    padding: 0 1.5%;
+}
+
+.merit-contents-detail img {
+    width: 360px;
+    height: 180px;
+}
+
+.merit-contents-detail>h5 {
+    margin-top: 12px;
+    text-align: left;
+}
+
+.merit-contents-detail p {
+    width: 360px;
+    text-align: left;
+    padding-top: 12px;
 }
 
 .support {
@@ -389,15 +451,16 @@ h2 {
 }
 
 .isara-member h6 {
-    padding-top: 45px;
+    padding-top: 30px;
 }
 
 .member-shokai {
-    padding-top: 212px;
+    padding-top: 190px;
 }
 
 .shokai-top {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 
 .shokai-under {
@@ -437,6 +500,7 @@ h2 {
     width: 280px;
     height: 220px;
     margin: 0 auto;
+    text-align: left;
 }
 
 /* <!-- 「 本当に 」可能なのか？ --> */
@@ -465,6 +529,10 @@ h2 {
     display: inline-flex;
 }
 
+.really-title>h2 {
+    padding-top: 70px;
+}
+
 .really-kakko {
     color: #fff;
 }
@@ -489,6 +557,7 @@ h2 {
 
 .possible-title {
     text-align: center;
+    margin-top: 45px;
 }
 
 .message {
@@ -530,9 +599,6 @@ h2 {
     padding-top: 65px;
 }
 
-.detail-table{
-    padding-bottom: 80px;
-}
 .detail th {
     width: 370px;
     border: none;
@@ -577,25 +643,36 @@ h2 {
     font-size: 20px;
     top: 50%;
     left: 50%;
-    -webkit-transform : translate(-50%,-50%);
-    transform: translateY(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translateY(-50%, -50%);
     margin: auto;
     text-align: center;
 }
 
 
 /* <!-- 受講の流れ --> */
-.nagare{
+.nagare {
     width: auto;
     height: 1825px;
     background-color: #fff;
 }
 
-.nagare-detail{
+.nagare-title {
+    margin-top: 65px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
-.nagare-parent{
+.nagare-naka {
+    text-align: center;
+}
+
+.nagare-title>h3 {
+    margin-bottom: 55px;
+}
+
+
+.nagare-parent {
     width: 1170px;
     height: 225px;
     background-color: #FEF5E0;
@@ -605,28 +682,388 @@ h2 {
     justify-content: center;
 }
 
-.nagare-skype-left{
+.nagare-left {
     width: 215px;
     height: 222px;
     display: inline-block;
+    padding-top: 30px;
+    padding-left: 57px;
+    padding-bottom: 35px;
+    text-align: center;
 }
-.nagare-skype{
-   
+
+.nagare-left>h4 {
+    width: 120px;
+    font-size: 18px;
+    margin-top: 23px;
+}
+
+.nagare-right {
+    margin-top: 30px;
+    margin-left: 42px;
+    margin-right: 42px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.nagare-parent-manabu {
+    text-align: left;
+}
+
+.nagare-parent-manabu h4 {
+    padding-right: 15px;
+}
+
+.nagare-right-manabu {
+    padding-right: 150px;
+    width: 5000px;
+}
+
+.nagare-parent-support {
+    /* padding-right: 300px; */
+}
+
+.nagare-right-support {
+    text-align: left;
+    width: 5000px;
 }
 
 /* <!-- なぜバンコクなのか？ --> */
+.why-bangkok {
+    width: auto;
+    height: 495px;
+    background-image: url(img/bangkokbg.jpg);
+    background-size: cover;
+    color: #fff;
+    padding-top: 105px;
+    padding-left: 95px;
+}
 
+.why-bangkok ul li {
+    font-size: larger;
+}
+
+#possible-japan {
+    padding-top: 32px;
+}
+
+#bangkok-important {
+    font-size: x-large;
+}
 
 /* <!-- iSara受講生への参加特典 --> */
+.sanka-tokuten {
+    width: auto;
+    height: 705px;
+    background-color: #F7C23B;
+    text-align: center;
+    padding-top: 63px;
+}
 
+.sanka-tokuten-title p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 19px;
+}
+
+.sanka-tokuten-title span {
+    color: #fff;
+}
+
+.tokuten-detail-title {
+    width: 575px;
+    height: 75px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    z-index: 999;
+    background-color: #F7C23B;
+}
+
+.tokuten-detail-title h3 {
+    font-size: 34px;
+}
+
+.tokuten-detail {
+    width: 1168px;
+    height: 360px;
+    border: 2px solid #fff;
+    margin: auto;
+    display: flex;
+}
+
+.tokuten {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 40px auto 0 auto;
+    padding-top: 50px;
+}
+
+.tokuten h3 {
+    color: #F7C23B;
+    padding-bottom: 13px;
+}
+
+.tokuten p {
+    width: 225px;
+    height: 85px;
+    padding-left: 23px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+}
 
 /* <!-- iSaraはボランティアではありません --> */
+.not-volunteer {
+    width: auto;
+    height: 528px;
+    background-image: url(img/specialdetail.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.not-volunteer h2 {
+    padding-top: 60px;
+}
+
+.not-volunteer p {
+    font-size: 22px;
+    padding-top: 22px;
+}
+
+.volunteer-sub {
+    display: flex;
+}
+
+.volunteer-sub h2,
+.volunteer-kakko1 {}
+
+.volunteer-kakko1 {
+    color: #fff;
+    margin-right: 100px;
+    font-size: 80px;
+}
+
+.volunteer-kakko2 {
+    color: #fff;
+    margin-left: 100px;
+    font-size: 80px;
+}
 
 /* <!-- 創業者からのメッセージ --> */
+.founder-message {
+    width: auto;
+    height: 624px;
+}
+
+.founder-message-title {
+    text-align: center;
+    margin-top: 58px;
+    margin-bottom: 40px;
+}
+
+.founder-message-title h3 {
+    margin-top: 40px;
+}
+
+.someya-message {
+    width: 867px;
+    height: 334px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.someya-message img {
+    width: 195px;
+    height: 142px;
+}
+
+.someya-message-message {
+    padding-left: 30px;
+}
 
 /* <!-- 資料請求フォーム --> */
+.document-request {
+    width: auto;
+    height: 706px;
+    background-color: #EBB94C;
+    text-align: center;
+}
+
+.document-request-title {
+    padding-top: 60px;
+}
+
+.document-request-title i {
+    color: #fff;
+}
+
+.document-request-title p {
+    padding-top: 26px;
+    padding-bottom: 15px;
+}
+
+.document-request input {
+    width: 767px;
+    height: 55px;
+    border-radius: 7px;
+    margin: 1% 0;
+    border-style: none;
+}
+
+.document-request textarea {
+    width: 767px;
+    height: 100px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border-style: none
+}
+
+.document-request-submit input {
+    color: #fff;
+    background-color: #DA6B63;
+    border-radius: 30px;
+    font-size: x-large;
+}
+
+textarea,
+input::placeholder {
+    padding-left: 5px;
+}
 
 /* <!-- よくある質問 --> */
+.question {
+    width: auto;
+    height: 1330px;
+    text-align: center;
+}
 
+.question h2 {
+    margin-top: 60px;
+}
+
+.fa-question-circle {
+    color: blue;
+}
+
+/* .question-list-item {
+    width: 1170px;
+    height: 64px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    list-style: none;
+    cursor: pointer;
+}
+
+.question-list-item h3 {
+    text-align-last: left;
+}
+
+.answer-open p {
+    display: none;
+}
+
+.answer h3>span {
+    float: right;
+    right: 5px;
+    color: #ccc;
+}
+
+.answer {} */
+#question-list {
+    list-style: none;
+}
+
+.question-list-item {
+    width: 1170px;
+    height: 64px;
+    margin: 5px auto 0 auto;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+}
+
+.question-list-item h3 {
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.question-list-item span {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #ccc;
+}
+
+.answer {
+    padding: 12px 0px;
+    margin-bottom: 15px;
+    /* displayプロパティをnoneにしてください */
+    display: none;
+
+}
 
 /* footer */
+
+footer {
+    width: auto;
+    height: 178px;
+    background-color: #ECECEC;
+    text-align: center;
+}
+
+footer h6 {
+    padding-top: 35px;
+}
+
+footer h6,
+.footer-p {
+    font-size: 12px;
+}
+
+/* pagetop */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#page_top {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 50px;
+    bottom: -100px;
+    background: #ECECEC;
+}
+
+#page_top a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#page_top a::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0px;
+    bottom: 0;
+    right: 0px;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
