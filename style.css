@@ -83,7 +83,7 @@ header {
 }
 
 .contact-us {
-    width: 1000px;
+    width: 80%;
     height: 107px;
     color: #fff;
     background-color: #DA6B63;
@@ -222,7 +222,7 @@ header {
 }
 
 .five-skill {
-    width: 1168px;
+    width: 95%;
     height: 249px;
     margin: 0 auto;
     background-color: #fff;
@@ -389,7 +389,7 @@ h4 {
 }
 
 .merit-contents {
-    width: 1143px;
+    width: 92%;
     height: 382px;
     display: flex;
     justify-content: center;
@@ -424,7 +424,7 @@ h4 {
     text-align: center;
     padding-top: 40px;
     background-color: #fff;
-    width: 1168px;
+    width: 93%;
     height: 263px;
     margin: auto;
     border: solid 2px #EBB94C;
@@ -673,7 +673,7 @@ h4 {
 
 
 .nagare-parent {
-    width: 1170px;
+    width: 93%;
     height: 225px;
     background-color: #FEF5E0;
     border-radius: 5px;
@@ -776,7 +776,7 @@ h4 {
     margin: 0 auto;
     position: relative;
     top: 20px;
-    z-index: 999;
+    z-index: 998;
     background-color: #F7C23B;
 }
 
@@ -785,7 +785,7 @@ h4 {
 }
 
 .tokuten-detail {
-    width: 1168px;
+    width: 93%;
     height: 360px;
     border: 2px solid #fff;
     margin: auto;
@@ -907,7 +907,7 @@ h4 {
 }
 
 .document-request input {
-    width: 767px;
+    width: 60%;
     height: 55px;
     border-radius: 7px;
     margin: 1% 0;
@@ -915,7 +915,7 @@ h4 {
 }
 
 .document-request textarea {
-    width: 767px;
+    width: 60%;
     height: 100px;
     margin-top: 28px;
     margin-bottom: 30px;
@@ -939,75 +939,64 @@ input::placeholder {
 .question {
     width: auto;
     height: 1330px;
-    text-align: center;
+}
+
+.fa-envelope-open {
+    color: #4e4343;
 }
 
 .question h2 {
+    text-align: center;
     margin-top: 60px;
 }
 
 .fa-question-circle {
-    color: blue;
+    color: #016ea9;
 }
 
-/* .question-list-item {
-    width: 1170px;
-    height: 64px;
+.page-box {
+    width: 80%;
     margin: 0 auto;
-    border: 1px solid #000;
-    list-style: none;
-    cursor: pointer;
 }
 
-.question-list-item h3 {
-    text-align-last: left;
+.page-box-title {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #fff;
+    color: #000000;
+    border: solid 1px #e5e5e5;
 }
 
-.answer-open p {
+.page-box-title .fas {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.far {
+    margin: auto 5px;
+}
+
+.page-box-text {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
     display: none;
 }
 
-.answer h3>span {
-    float: right;
-    right: 5px;
-    color: #ccc;
+.page-box-title-text:hover {
+    text-decoration: underline;
 }
 
-.answer {} */
-#question-list {
-    list-style: none;
-}
-
-.question-list-item {
-    width: 1170px;
-    height: 64px;
-    margin: 5px auto 0 auto;
-    border: 1px solid #c0c0c0;
-    border-radius: 3px;
-    position: relative;
+.page-box-title-text {
     cursor: pointer;
-    text-align: left;
 }
 
-.question-list-item h3 {
-    padding-top: 15px;
-    padding-left: 10px;
-    font-size: 23px;
-}
-
-.question-list-item span {
-    position: absolute;
-    top: 0;
-    right: 5px;
-    color: #ccc;
-}
-
-.answer {
-    padding: 12px 0px;
-    margin-bottom: 15px;
-    /* displayプロパティをnoneにしてください */
-    display: none;
-
+.page-box-title-text p {
+    padding-top: 10px;
 }
 
 /* footer */
@@ -1018,6 +1007,7 @@ footer {
     background-color: #ECECEC;
     text-align: center;
 }
+
 
 footer h6 {
     padding-top: 35px;
@@ -1066,4 +1056,79 @@ h2 {
     left: 0;
     margin: 0 auto;
     text-align: center;
+}
+
+@media screen and (max-width: 1024px) {}
+
+
+@media screen and (max-width: 640px) {
+    .header-left {
+        margin: 0;
+    }
+
+    .header-left img {
+        width: 89px;
+        height: 30px;
+    }
+
+    .header-left p {
+        font-size: 10px;
+    }
+
+    .top-wrapper {
+        height: 375px;
+        background-image: url(img/mainsp.jpg);
+        background-size: cover;
+    }
+
+    .top-wrapper h1 {
+        font-size: 20px;
+    }
+
+    .top-wrapper img {
+        width: 297px;
+        height: 105px;
+    }
+
+    .top-wrapper h3 {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
+    .contact {
+        height: 500px;
+    }
+
+    .contact h3 {
+        font-size: 15px;
+    }
+
+    .course-fee {
+        font-size: 15px;
+    }
+
+    .contact-us {
+        width: 90%;
+        height: 100px;
+        margin-top: 25px;
+    }
+
+    .contact-us p {
+        margin: 0 auto;
+        height: 80px;
+        width: 55%;
+        font-size: 20px;
+    }
+
+    .contact-deadline {
+        font-size: 15px;
+    }
+
+.free-title h2{
+    font-size: 20px;
+}
+
+.about-isara{
+    height: 615px;
+}
 }
