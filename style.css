@@ -870,7 +870,7 @@ h4 {
 }
 
 .someya-message {
-    width: 867px;
+    width: 68%;
     height: 334px;
     display: flex;
     margin: 0 auto;
@@ -895,15 +895,11 @@ h4 {
 
 .document-request-title {
     padding-top: 60px;
+    font-weight: bold;
 }
 
 .document-request-title i {
     color: #fff;
-}
-
-.document-request-title p {
-    padding-top: 26px;
-    padding-bottom: 15px;
 }
 
 .document-request input {
@@ -1075,10 +1071,16 @@ h2 {
         font-size: 10px;
     }
 
+    /* <!-- top-wrapper --> */
     .top-wrapper {
         height: 375px;
         background-image: url(img/mainsp.jpg);
         background-size: cover;
+    }
+
+    .top-wrapper h1,
+    h3 {
+        font-weight: bold;
     }
 
     .top-wrapper h1 {
@@ -1095,16 +1097,19 @@ h2 {
         margin-top: 50px;
     }
 
+    /* <!-- お問い合わせ・資料請求 --> */
     .contact {
         height: 500px;
     }
 
     .contact h3 {
         font-size: 15px;
+        letter-spacing: 1px;
     }
 
     .course-fee {
-        font-size: 15px;
+        font-size: 13px;
+        letter-spacing: 1px;
     }
 
     .contact-us {
@@ -1124,11 +1129,267 @@ h2 {
         font-size: 15px;
     }
 
-.free-title h2{
-    font-size: 20px;
-}
+    /* <!-- エンジニアとして本当の自由を手に入れるためには？ --> */
+    .free {
+        background-image: url(img/introbottom.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 
-.about-isara{
-    height: 615px;
+    .free-title h2 {
+        font-size: 20px;
+    }
+
+    .free p {
+        font-size: 15px;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    /* <!-- iSara[イサラ]とは --> */
+
+    .about-isara {
+        height: 615px;
+    }
+
+    .about-isara-head {
+        height: 60px;
+        width: 60px;
+        background-color: #EBB94C;
+        text-align: center;
+        line-height: 60px;
+        position: relative;
+        margin: 0 auto;
+        bottom: 30px;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .about-isara>h4 {
+        width: 60%;
+        font-size: 15px;
+        margin: -40px auto 0 auto;
+        letter-spacing: 1px;
+    }
+
+    .free-title {
+        margin-top: -50px;
+    }
+
+    .five-skill>h4 {
+        width: 42%;
+        font-size: 15px;
+        margin: -20px auto 0 auto;
+        letter-spacing: 1px;
+    }
+
+    .five-images {
+        width: 80%;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin: 0 auto;
+    }
+
+    .five-images img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .five-images-connect img {
+        width: 80px;
+        height: 40px;
+    }
+
+    /* <!-- iSaraで「基本的なプログラミングスキル」は教えません --> */
+    .not-teach {
+        height: 610px;
+    }
+
+    .not-teach-parent h2 {
+        width: 60%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin: 0 auto;
+    }
+
+    .not-teach-parent h5 {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .step0 {
+        width: 443px;
+        height: 107px;
+    }
+
+    .step h5 {
+        width: 340px;
+        height: 17px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .step0 p{
+        margin-top: -15px;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+    }
+    .step0 h4{
+        font-size: 12px;
+        margin-top: -7px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .eat-difficult{
+        height: 94px;
+    }
+.eat-difficult h4{
+    width: 340px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
 }
+/* <!-- iSara[イサラ]で学べること --> */
+.learn-isara{
+    height: 290px;
+}
+.learn-isara-parent h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: -10px;
+}
+.learn-isara-parent p{
+    width: 60%;
+    margin: 50px auto 0 auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.learn-round{
+    margin-top: -25px;
+    font-size: 15px;
+}
+.learn-round-img{
+    width: 20%;
+}
+.learn-round-img img {
+    width: 90%;
+}
+.korega-isara{
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: -20px;
+}
+    /* <!-- iSara受講生への参加特典 --> */
+    .sanka-tokuten {
+        height: 575px;
+    }
+
+    .sanka-tokuten-title {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .sanka-tokuten-title h2 {
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-top: 0;
+    }
+
+    .sanka-tokuten-title p {
+        font-size: 13px;
+    }
+
+    /* <!-- iSaraはボランティアではありません --> */
+    .not-volunteer {
+        height: 490px;
+    }
+
+    .not-volunteer h2 {
+        font-size: 20px;
+    }
+
+    .not-volunteer p {
+        font-size: 12px;
+    }
+
+    /* <!-- 創業者からのメッセージ --> */
+    .founder-message {
+        height: 1000px;
+    }
+
+    .founder-message-title * {
+        font-size: 19px;
+    }
+
+    .founder-message-title h3 {
+        width: 50%;
+        font-size: 15px;
+        margin: 0 auto;
+        letter-spacing: 1px;
+    }
+
+    .someya-message {
+        width: 90%;
+        display: block;
+    }
+
+    .someya-message img {
+        width: 460px;
+        height: 353px;
+    }
+
+    .someya-message-message {
+        width: 460px;
+        font-size: 15px;
+    }
+
+    /* <!-- 資料請求フォーム --> */
+    .document-request-title h2 {
+        font-size: 20px;
+    }
+
+    .document-request-title p {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .document-request input {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .document-request textarea {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    /* < !-- よくある質問 --> */
+    .question {
+        height: 850px;
+    }
+
+    .question h2 {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .page-box {
+        width: 90%;
+    }
+
+    .page-box-title {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .page-box-text p {
+        font-size: 12px;
+    }
+
+    /* footer */
+    footer {
+        height: 105px;
+        background-color: #ECECEC;
+    }
 }
